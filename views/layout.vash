@@ -30,6 +30,40 @@
       .education .item {
         width: 33% !important;
       }
+
+
+      html {
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        position: relative;
+        margin: 0;
+        padding-bottom: 6rem;
+        min-height: 100%;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      /**
+       * Footer Styles
+       */
+
+      .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: #efefef;
+        text-align: center;
+      }
+
+
     </style>
   </head>
   <body>
@@ -115,7 +149,7 @@
       <!-- end .top -->
       <div class="bottom clearfix">
         <div class="title">
-          <a href="index.html">Sility
+          <a href="">Mayank Gupta
           </a>
         </div>
         <div class="header-action-button-wrapper">
@@ -219,6 +253,9 @@
                             <li>
                                 <b>Code Project Articles:
                                 </b>  <a href="http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7572025">http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7572025</a>
+                            </li>
+                            <li>
+                              <a href="Files/ResumeMayank.doc">DownLoad Resume</a>
                             </li>
                         </ul>
                         <!-- end .list-unstyled -->
@@ -648,428 +685,10 @@
         </section>
         <!-- end #section1 -->
         <!-- Portfolio -->
-        <section id="section6">
-          <div class="container">
-            <h2>Portfolio
-            </h2>
-            <div class="portfolio-wrapper">
-              <div id="portfolio-filters" class="portfolio-filters">
-                <button class="button solid-button white-purple small" data-filter="*">Show All
-                </button>
-                <button class="button solid-button white-purple small" data-filter=".branding">Branding
-                </button>
-                <button class="button solid-button white-purple small" data-filter=".print">Print
-                </button>
-                <button class="button solid-button white-purple small" data-filter=".motion">Motion
-                </button>
-                <button class="button solid-button white-purple small" data-filter=".websites">Websites
-                </button>
-              </div>
-              <div id="portfolio" class="portfolio">
-                <div class="item branding print">
-                  <img src="images/portfolio01.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 01
-                      </span>
-                      <span class="category">Branding, Print
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item motion">
-                  <img src="images/portfolio02.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 02
-                      </span>
-                      <span class="category">Motion
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item print">
-                  <img src="images/portfolio03.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 03
-                      </span>
-                      <span class="category">Print
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item print branding websites">
-                  <img src="images/portfolio04.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 04
-                      </span>
-                      <span class="category">Branding, Websites
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item print branding">
-                  <img src="images/portfolio05.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 05
-                      </span>
-                      <span class="category">Print, Branding
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item motion">
-                  <img src="images/portfolio06.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 06
-                      </span>
-                      <span class="category">Motion
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item motion">
-                  <img src="images/portfolio07.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 07
-                      </span>
-                      <span class="category">Motion
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item print">
-                  <img src="images/portfolio08.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 08
-                      </span>
-                      <span class="category">Print
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item motion">
-                  <img src="images/portfolio09.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 09
-                      </span>
-                      <span class="category">Motion
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-                <div class="item websites">
-                  <img src="images/portfolio10.jpg" alt="alt text" class="img-responsive">
-                  <a href="single-portfolio.html" class="overlay">
-                    <div class="background">
-                    </div>
-                    <div class="meta">
-                      <span class="title">Portfolio Item - 10
-                      </span>
-                      <span class="category">Websites
-                      </span>
-                    </div>
-                    <!-- end .meta -->
-                  </a>
-                  <!-- end .overlay -->
-                </div>
-                <!-- end .item -->
-              </div>
-              <!-- end .portfolio -->
-              <div class="portfolio-load-more">
-                <a href="single-portfolio.html" class="button solid-button white icon-right">Load More Work
-                  <i class="md-refresh">
-                  </i>
-                </a>
-              </div>
-              <!-- end .portfolio-load-more -->
-            </div>
-            <!-- end .portfolio-wrapper -->
-          </div>
-          <!-- end .container -->
-        </section>
+  
         <!-- end #section1 -->
         <!-- Blog -->
-        <section id="section7">
-          <div class="container">
-            <h2>Blog Post
-            </h2>
-            <div class="blog-posts masonry" id="blog-masonry">
-              <div class="blog-grid-sizer">
-              </div>
-              <div class="blog-post image-left">
-                <div class="inner">
-                  <a href="single-blog-post.html">
-                    <div class="image" style="background-image: url('images/JavaScript-logo.png');">
-                    </div>
-                  </a>
-                  <div class="content">
-                    <span class="date">March 14, 2015
-                    </span>
-                    <h5>
-                      <a href="single-blog-post.html">Immediatel Invokable Function Expressions
-                      </a>
-                    </h5>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">3 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post">
-                <div class="inner">
-                  <div class="content">
-                    <span class="date">March 15, 2015
-                    </span>
-                    <h4>
-                      <a href="module.html">Module Pattern In JavaScript
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">7 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post image-top">
-                <div class="inner">
-                  <a href="single-blog-post.html">
-                    <div class="image" style="background-image: url('images/node.jpg');">
-                    </div>
-                  </a>
-                  <div class="content">
-                    <span class="date">March 13, 2015
-                    </span>
-                    <h4>
-                      <a href="single-blog-post.html">Node.js Single Threaded Architecture
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">4 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post image-top">
-                <div class="inner">
-                  <a href="single-blog-post.html">
-                    <div class="image" style="background-image: url('images/blog-post-image02.jpg');">
-                    </div>
-                  </a>
-                  <div class="content">
-                    <span class="date">March 12, 2015
-                    </span>
-                    <h4>
-                      <a href="single-blog-post.html">How to Launch Website Easily
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">10 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post image-right">
-                <div class="inner">
-                  <a href="single-blog-post.html">
-                    <div class="image" style="background-image: url('images/blog-post-image04.jpg');">
-                    </div>
-                  </a>
-                  <div class="content">
-                    <span class="date">March 11, 2015
-                    </span>
-                    <h4>
-                      <a href="single-blog-post.html">Music Is Help To Relax Body And Mind
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">5 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post">
-                <div class="inner">
-                  <div class="content">
-                    <span class="date">March 10, 2015
-                    </span>
-                    <h4>
-                      <a href="single-blog-post.html">We Support any Type of Design
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">3 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-              <div class="blog-post image-left">
-                <div class="inner">
-                  <a href="single-blog-post.html">
-                    <div class="image" style="background-image: url('images/blog-post-image05.jpg');">
-                    </div>
-                  </a>
-                  <div class="content">
-                    <span class="date">March 9, 2015
-                    </span>
-                    <h4>
-                      <a href="single-blog-post.html">Change Your Domain Without Risk
-                      </a>
-                    </h4>
-                    <footer>
-                      <span class="comments-link">
-                        <a href="single-blog-post.html">6 Comments
-                        </a>
-                      </span>
-                      <span class="share-link">
-                        <a href="single-blog-post.html">
-                          <i class="fa fa-share-alt">
-                          </i>
-                        </a>
-                      </span>
-                    </footer>
-                  </div>
-                  <!-- end .content -->
-                </div>
-                <!-- end .inner -->
-              </div>
-              <!-- end .blog-post -->
-            </div>
-            <!-- end .blog-posts -->
-            <div class="blog-load-more">
-              <a href="single-blog-post.html" class="button solid-button white icon-right">Load More Posts
-                <i class="md-refresh">
-                </i>
-              </a>
-            </div>
-            <!-- end .blog-load-more -->
-          </div>
-          <!-- end .container -->
-        </section>
+     
         <!-- end #section1 -->
         <!-- Contact -->
         <section id="section8">
@@ -1117,6 +736,8 @@
     </div>
     <!-- end .sections -->
     <!-- Footer -->
+    <div style="height: 200px;">
+    </div>
     <footer class="footer">
       <div class="top">
         <div class="container">
@@ -1144,6 +765,7 @@
         <!-- end .container -->
       </div>
     </footer>
+
     <!-- end .footer -->
     <!-- jQuery -->
     <script src="js/jquery-1.11.2.min.js">
