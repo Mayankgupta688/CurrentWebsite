@@ -251,11 +251,17 @@
                                 </b> A-8, Milansar Appartment, Rohini, Sector-14, Delhi, India.
                             </li>
                             <li>
-                                <b>Code Project Articles:
+                                <b>CodeProject Articles:
                                 </b>  <a href="http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7572025">http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7572025</a>
                             </li>
+
                             <li>
-                              <a href="Files/ResumeMayank.doc">DownLoad Resume</a>
+                                <b>LinkedIn Profile:
+                                </b>  <a href="https://in.linkedin.com/in/mayank-gupta-a34ba056">https://in.linkedin.com/in/mayank-gupta-a34ba056</a>
+                            </li>
+
+                            <li>
+                              <b><a href="Files/ResumeMayank.doc">Download Resume</a></b>
                             </li>
                         </ul>
                         <!-- end .list-unstyled -->
@@ -712,6 +718,12 @@
                     <i class="ion-ios-email-outline">
                     </i>Email:
                     <a href="MayankGupta688@gmail.com">MayankGupta688@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <i class="ion-ios-email-outline">
+                    </i>LinkedIn:
+                    <a href="https://in.linkedin.com/in/mayank-gupta-a34ba056">https://in.linkedin.com/in/mayank-gupta-a34ba056
                     </a>
                   </li>
 
