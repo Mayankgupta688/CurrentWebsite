@@ -1,0 +1,19 @@
+{
+  "name": "Mayank",
+  "version": "0.0.0",
+  "description": "Demo Application",
+  "main": "server.js",
+  "author": {
+    "name": "Mayank",
+    "email": "mayankgupta688@gmail.com"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongodb": "^2.1.4",
+    "vash": "~0.11.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-nodemon": "~0.4.1"
+  }
+}
