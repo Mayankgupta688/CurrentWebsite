@@ -3,7 +3,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sility - Material Design Vcard & CV HTML Template
+    <meta name="description" content="Software Developer with 5+ Years Experience in Technologies Like AngularJS, Mean Stack, TypeScript, Node, JavaScript, Knockout and other related Frameworks." />
+    <meta name="keywords" content="javaScript developer,angular.js,angularjs,angular, angular developer,mean stack,mean stack developer,typescript developer,typescript, nodejs, node.js" />
+    <meta name="robots" content="index,follow" />
+    <title>Mayank Gupta - JavaScript Developer
     </title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -213,7 +216,7 @@
                 </h2>
                 <div class="row">
                     <div class="col-sm-3">
-                        <img src="images/mayank.png" alt="man" class="img-responsive section-img">
+                        <img src="images/mayank.png" alt="JavaScript and Angularjs Developer" class="img-responsive section-img">
                     </div>
                     <!-- end .col-sm-3 -->
                     <div class="col-sm-9">
@@ -253,7 +256,11 @@
 
                             <li>
                                 <b>LinkedIn Profile:
-                                </b>  <a href="https://in.linkedin.com/in/mayank-gupta-a34ba056">https://in.linkedin.com/in/mayank-gupta-a34ba056</a>
+                                </b> <a href="https://in.linkedin.com/in/mayank-gupta-a34ba056">https://in.linkedin.com/in/mayank-gupta-a34ba056</a>
+                            </li>
+                            <li>
+                                <b>GitHub Repository:
+                                </b> <a href="https://github.com/Mayankgupta688">https://github.com/Mayankgupta688</a>
                             </li>
                             <li>
                                 <b>Address:
@@ -300,7 +307,7 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/angular.png" style="height: 90px;">
+                                        <img src="images/angular.png" alt="Angularjs, Angular" style="height: 90px;">
                                     </div>
                                     <h5>Angular.js
                                     </h5>
@@ -311,7 +318,7 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/JavaScript-logo.png" style="height: 90px;">
+                                        <img src="images/JavaScript-logo.png" alt="javascript" style="height: 90px;">
                                     </div>
                                     <h5>JavaScript Development
                                     </h5>
@@ -322,7 +329,7 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/mean.png" style="height: 90px;">
+                                        <img src="images/mean.png" alt="Mean Stack, Mean" style="height: 90px;">
                                     </div>
                                     <h5>Mean Stack
                                     </h5>
@@ -336,7 +343,7 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/jquery.png" style="height: 90px;">
+                                        <img src="images/jquery.png" alt="jquery" style="height: 90px;">
                                     </div>
                                     <h5>JQuery
                                     </h5>
@@ -347,9 +354,9 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/javascript.png" style="height: 90px;">
+                                        <img src="images/javascript.png" style="height: 90px;" alt="typescript">
                                     </div>
-                                    <h5>JavaScript Development
+                                    <h5>TypeScript
                                     </h5>
                                 </div>
                                 <!-- end .service -->
@@ -358,7 +365,7 @@
                             <div class="col-sm-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/node.jpg" style="height: 90px;">
+                                        <img src="images/node.jpg" style="height: 90px;" alt="Nodejs, node">
                                     </div>
                                     <h5>Node
                                     </h5>
@@ -803,5 +810,9 @@
     <!-- Scripts.js -->
     <script src="js/scripts.js">
     </script>
+
+    <script async src="analytics/analytics.js">
+    </script>
+
   </body>
 </html>
