@@ -820,7 +820,7 @@
     <script src="js/scripts.js">
     </script>
 
-    <script async src="analytics/analytics.js">
+    <script defer src="analytics/analytics.js">
     </script>
 
   </body>
