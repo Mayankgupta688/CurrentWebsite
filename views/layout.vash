@@ -354,7 +354,7 @@
                             <a class="col-sm-4" href="https://www.typescriptlang.org/">
                                 <div class="service">
                                     <div class="icon">
-                                        <img src="images/javascript.png" style="height: 90px;" alt="typescript">
+                                        <img src="images/typescript.png" style="height: 90px;" alt="typescript">
                                     </div>
                                     <h5>TypeScript
                                     </h5>
