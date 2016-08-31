@@ -6,3 +6,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-83101907-1', 'auto');
 ga('send', 'pageview');
+ga('send', 'event', { eventCategory: 'Scrolled 250px', eventAction: 'Scroll' });
+
+setTimeout("ga('send', 'event', { eventCategory: '3 seconds on page', eventAction: 'Read' })", 3000);
