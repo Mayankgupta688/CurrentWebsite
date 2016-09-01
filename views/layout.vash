@@ -10,7 +10,7 @@
     </title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Icons -->  
+    <!-- Material Design Icons -->
     <link href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
@@ -264,7 +264,7 @@
                             </li>
                             <li>
                                 <b>My Blog:
-                                </b> <a href="http://learn-javascript.in">https://learn-javascript.in</a>
+                                </b> <a href="http://learn-javascript.in">http://learn-javascript.in</a>
                             </li>
                             <li>
                                 <b>Address:
