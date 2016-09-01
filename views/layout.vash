@@ -188,6 +188,11 @@
               <a href="#section8">Contact
               </a>
             </li>
+
+            <li>
+              <a href="learn-javascript.in">Blog
+              </a>
+            </li>
           </ul>
         </nav>
         <!-- end .main-nav -->
